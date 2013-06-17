@@ -1,0 +1,20 @@
+2010.03.09
+  [FIX] Fixed: For DataGridView without row or column headers first spanned row or column don't paint properly.	
+
+2009.06.29
+  [NEW] DataGridViewImageCellEx was added. It's a DataGridViewImageCell	with spanning.
+
+2009.03.23
+  [FIX] Fixed: Merged cells area which contains hidden (Visible == false) rows or/and columns is painted not correctly. (Thanks MuForum.)
+
+2009.03.16
+  [FIX] Painting of the cells belong to frozen rows or columns was fixed.
+  [FIX] Fixed: Merged cells corrupt DataGridView borders.
+  [FIX] Fixed: TextBox of merged cell is not properly clipped.
+  
+2010.07.15
+  [FIX] Added RightToLeft support.
+
+2010.12.21
+  [FIX] Autosizing of cells is not correct.
+  [FIX] Fixed spanning a region which contains spanned cells already.
